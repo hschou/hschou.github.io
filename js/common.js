@@ -142,6 +142,27 @@ $(function() {
         open_layout();
     });
 
+    $('.product_7').click(function(){
+        del_slide();
+        $('.carousel').carousel(4);
+        add_slide();
+        open_layout();
+    });
+
+    $('.product_8').click(function(){
+        del_slide();
+        $('.carousel').carousel(4);
+        add_slide();
+        open_layout();
+    });
+
+    $('.product_9').click(function(){
+        del_slide();
+        $('.carousel').carousel(4);
+        add_slide();
+        open_layout();
+    });
+
     $('.btn_more').click(function(){
         del_slide();
         $('.carousel').carousel(5);
@@ -232,6 +253,9 @@ if (annyang) {
     '(number) 4': function(){ $('.product_4').click(); },
     '(number) 5': function(){ $('.product_5').click(); },
     '(number) 6': function(){ $('.product_6').click(); },
+    '(number) 7': function(){ $('.product_6').click(); },
+    '(number) 8': function(){ $('.product_6').click(); },
+    '(number) 9': function(){ $('.product_6').click(); },
     '(number) more': function(){ $('.btn_more').click(); },
 
     'goodbye': function(){ byebye(); }
