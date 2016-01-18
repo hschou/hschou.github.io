@@ -47,7 +47,7 @@
 	.info_timeline dl dd { width: calc(100% - 170px); width: -moz-calc(100% - 170px); width: -webkit-calc(100% - 170px); }
 	.footer a { float: none; }
 	.tip_avatar_con { background-position: center center; }
-	.tip_right { width: 80%; padding: 10% 10% 30%; height: auto; position: relative; top: 0; margin: 0; background-color: rgba(215,62,42,0.95); }
+	.tip_right { width: 80%; padding: 10% 10% 30%; height: auto; position: relative; top: 0; margin: 0; background-color: #fff0f5; }
 	.info_content.over .desc { height: auto; margin-bottom: 20px; }
 	.info_content.over .s5.curr, .info_content.over .s4.curr, .info_content.over .s3.curr, .info_content.over .s2.curr, .info_content.over .s1.curr { padding-top: 0; height: auto; }
 	.info_content ul li .btn_go { display: block; position: relative; right: 0; top: 0; width: 80%; margin: -12px 0 30px 26px; }
