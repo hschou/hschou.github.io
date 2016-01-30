@@ -163,9 +163,16 @@ $(function() {
         open_layout();
     });
 
-    $('.btn_more').click(function(){
+    $('.product_10').click(function(){
         del_slide();
         $('.carousel').carousel(9);
+        add_slide();
+        open_layout();
+    });
+
+    $('.btn_more').click(function(){
+        del_slide();
+        $('.carousel').carousel(10);
         add_slide();
         open_layout();
     });
@@ -256,6 +263,7 @@ if (annyang) {
     '(number) 7': function(){ $('.product_7').click(); },
     '(number) 8': function(){ $('.product_8').click(); },
     '(number) 9': function(){ $('.product_9').click(); },
+    '(number) 10': function(){ $('.product_10').click(); },
     '(number) more': function(){ $('.btn_more').click(); },
 
     'goodbye': function(){ byebye(); }

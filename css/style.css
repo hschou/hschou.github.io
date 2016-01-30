@@ -159,7 +159,7 @@ i { font-size: 16px; }
 /* tip */
 .tip_avatar_bg { width: 20px; height: 20px; background-color: #fff0f5; position: fixed; top: 50%; left: 50%; z-index: 99; filter:alpha(opacity=0); -moz-opacity:0; opacity:0; display: none; }
 .tip_avatar { width: 100%; height: 100%; position: fixed; left: 0; top: 0; z-index: 100; display: none; filter:alpha(opacity=0); -moz-opacity:0; opacity:0; overflow-x: hidden; background-color: #fff0f5; }
-.tip_close { position: absolute; right: 20px; top: 20px; font-size: 48px; color: #fff; z-index: 101; }
+.tip_close { position: absolute; right: 20px; top: 20px; font-size: 48px; color: #A22F1E; z-index: 101; }
 .tip_avatar_con { width: 100%; height: 100%; }
 .tip_avatar_con .desc { width: 100%; position: absolute; bottom: 0; height: 30px; line-height: 30px; text-align: center; color: #a22f1e; }
 .tip_right p { color: #A22F1E; line-height: 22px; padding-top: 10px; }
@@ -199,6 +199,8 @@ i { font-size: 16px; }
 .banner.product_h8 .logo { color: #fff; text-align: center; line-height: 200px; font-size: 22px; }
 .banner.product_h9 { background: url(../images/product_9_bg.jpg) no-repeat; background-position: center; background-size: cover; }
 .banner.product_h9 .logo { color: #fff; text-align: center; line-height: 200px; font-size: 22px; }
+.banner.product_h10 { background: url(../images/product_10_bg.jpg) no-repeat; background-position: center; background-size: cover; }
+.banner.product_h10 .logo { color: #fff; text-align: center; line-height: 200px; font-size: 22px; }
 
 .tip_area_close { width: 40px; height: 40px; line-height: 40px; text-align: center; position: fixed; left: 10px; top: 10px; z-index: 120; display: block; overflow: hidden; font-size: 32px; color: #fff; display: none; filter:alpha(opacity=0); -moz-opacity:0; opacity:0; }
 
