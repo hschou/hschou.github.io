@@ -114,6 +114,8 @@ i { font-size: 16px; }
 .base span i { font-size: 16px; color: #999; margin-right: 5px; float: left; }
 .tel_me { color: #aaa; }
 .tel_me:hover { color: #999; border-bottom: 2px #999 solid; }
+.tel_me2 { color: #aaa; }
+.tel_me2:hover { color: #999; border-bottom: 2px #999 solid; }
 .information { width: 100%; }
 .info_content p { line-height: 22px; margin-bottom: 20px; overflow: hidden; }
 .info_content p em { margin: 0 5px; }
